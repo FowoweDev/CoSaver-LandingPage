@@ -388,6 +388,13 @@ header .container nav a.cta {
 .community .container .multi a {
   margin-top: 1.2em;
 }
+.community .container .multi .clip1 {
+  height: 40%;
+  width: 60%;
+  background: rgba(127, 181, 255, 0.2);
+  -webkit-clip-path: circle(29.7% at 10% 70%);
+          clip-path: circle(29.7% at 10% 70%);
+}
 
 @media only screen and (max-width: 575.98px) {
   .community .container {

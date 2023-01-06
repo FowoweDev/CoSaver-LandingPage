@@ -7,6 +7,7 @@ body {
     font-family: 'Montserrat', 'Raleway', sans-serif;
 }
 // Navigation Styles
+
 header{
     background: #fff;
     width: 100%;
@@ -445,6 +446,14 @@ header{
             a {
                 margin-top: 1.2em;
             }
+
+            .clip1{
+                height: 40%;
+                width: 60%;
+                background: #7FB5FF33;
+                clip-path: circle(29.7% at 10% 70%);
+            }
+            
         }
     }
 }
